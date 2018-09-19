@@ -1,0 +1,1 @@
+function mobileNav(){$(".navbar-toggle").on("click",function(){var a=$(this).hasClass("is-open");a?$(".navbar-toggle").removeClass("is-open"):$(".navbar-toggle").addClass("is-open")})}$(".links li").click(function(){$(this).addClass("active").siblings().removeClass("active")}),$(function(){mobileNav()});

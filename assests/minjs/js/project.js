@@ -1,0 +1,1 @@
+function sum(){var n=x+y;return n}var x=2,y=5;console.log(sum());

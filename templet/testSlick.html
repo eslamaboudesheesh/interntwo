@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixlly</title>
+<!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="../assests/lib/bootstrab/css/bootstrap.css">
+<!--font-awesome-->
+     <link rel="stylesheet" type="text/css" href="../assests/font-awesome-4.5.0/css/font-awesome.css">  
+
+     <!-- slick -->
+    <link rel="stylesheet" type="text/css" href="../assests/lib/slick/slick.css"/>
+      <link rel="stylesheet" type="text/css" href="../assests/lib/slick/slick-theme.css"/>
+
+
+<!-- animate -->
+    <link rel="stylesheet" type="text/css" href="../assests/lib/wow/css/animate.css">
+        <link rel="stylesheet" type="text/css" href="../assests/lib/Hover-master/css/hover.css">
+
+<!-- style -->
+    <link rel="stylesheet" type="text/css" href="../assests/css/project.css">
+<!--font-->
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+   <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet">
+	<script src="https://use.fontawesome.com/8cf463f2ae.js"></script>
+
+<style>@import 'https://fonts.googleapis.com/css?family=Cairo';
+</style>
+</head>
+<body >
+
+<div class="container newslick ">
+
+ <div class="col-md-12 col-xs-12 col-sm-12 item3">
+
+   <h3> Prefered  photos,background and vectors </h3>
+   
+   <section >
+       <div class="orginal slider">
+        
+          <img src="../assests/img/item1.png"  >
+          
+        
+        
+          <img  src="../assests/img/item2.png">
+       
+        <img src="../assests/img/item3t.png" >
+
+      
+
+       
+        <img src="../assests/img/item2.png">
+
+      
+      </div>
+ </section>
+</div> 
+
+  </div> <!-- end  big slider--->
+
+
+
+
+
+
+  <!-- ********************* scripts ************************* -->
+<script type="text/javascript" src="../assests/lib/jquery/js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="../assests/lib/jquery/js/jquery-ui-1.10.4.custom.min"></script>
+<script type="text/javascript" src="../assests/lib/bootstrab/js/bootstrap.min.js"></script>
+ <!-- skrollr -->
+ <script src="../assests/lib/publicjs/skrollr.min.js"></script>
+<script src="../assests/lib/publicjs/main.js"></script>
+  <script type="text/javascript">
+  var s = skrollr.init();
+  </script>
+<!-- animate -->
+  <script src="../assests/lib/wow/js/wow.min.js"></script>
+              <script>
+              new WOW().init();
+              </script>
+<!-- Project js -->
+<script type="text/javascript" src="../assests/js/project.js"></script>
+<!-- scroll Page  -->
+<script src="../assests/lib/publicjs/jquery.nicescroll.min.js"></script>
+
+<script src="../assests/lib/slick/slick.js" type="text/javascript"></script>
+<script>
+
+
+  $(document).on('ready', function() {
+  
+    $(".orginal").slick({
+         dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+         prevArrow: '<a class="prevArrow" style=" "><i class="fa fa-angle-left fa-2x"></i></a>',
+	     	nextArrow: '<a class="nextArrow" style=""><i class="fa fa-angle-right fa-2x"></i></a>',
+          
+          
+    responsive: [
+  
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+      }); 
+
+
+  });
+
+ </script>
+</body>
+</html>
